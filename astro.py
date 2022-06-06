@@ -1,1 +1,2 @@
-worker: bash AstroUB
+
+python3 AstroUB.py
