@@ -1,1 +1,1 @@
-worker: bash astroub.py
+worker: bash Astroub.py
