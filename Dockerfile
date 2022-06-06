@@ -57,6 +57,6 @@ RUN wget -O chromedriver.zip http://chromedriver.storage.googleapis.com/$(curl -
     unzip chromedriver.zip chromedriver -d /usr/bin/ && \
     rm chromedriver.zip
 COPY astro.py .
-COPY requirement.txt .
+COPY requirements.txt .
 RUN pip3 install --upgrade pip && pip3 install --no-cache-dir -r Xsetup.txt
 CMD ["python3","astro.py"]
